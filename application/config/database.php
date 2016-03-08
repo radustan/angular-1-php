@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'mysql3.000webhost.com',
+	'hostname' => '10.1.1.103',//'mysql3.000webhost.com',
 	'username' => 'a8770093_radust',
 	'password' => 'pass123',
 	'database' => 'a8770093_ang1php',
