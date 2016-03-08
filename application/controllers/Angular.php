@@ -38,6 +38,7 @@ class Angular extends MY_Controller
     {
         $params = $this->input->post();
         $this->load->model('Contacts', 'contacts');
+        header("Access-Control-Allow-Origin: *");
         $data = $this->contacts->save($params);
         echo $data;
     }
@@ -66,6 +67,7 @@ class Angular extends MY_Controller
         );
 
         $params = $this->input->get();
+        header("Access-Control-Allow-Origin: *");
         if (!empty($params['type']) && array_key_exists($params['type'], $data)) {
             header('Content-Type: text/plain');
             echo json_encode($data[$params['type']]);
