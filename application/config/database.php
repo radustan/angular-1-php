@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'angular',
+	'hostname' => 'mysql3.000webhost.com',
+	'username' => 'a8770093_radust',
+	'password' => 'pass123',
+	'database' => 'a8770093_ang1php',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
