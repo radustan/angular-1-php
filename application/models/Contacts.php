@@ -14,5 +14,10 @@ class Contacts extends MY_Model
             )
         );
     }
+
+    public function save(array $data)
+    {
+        return 'success';
+    }
 }
 
